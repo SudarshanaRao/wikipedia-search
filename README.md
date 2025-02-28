@@ -1,11 +1,11 @@
 # Wikipedia Search (Vanilla JavaScript)
 
 ## Overview
-This is a simple Wikipedia search application built using vanilla JavaScript, HTML, and CSS. The application allows users to search for Wikipedia articles using the Wikipedia API and displays the results dynamically.
+This is a simple Wikipedia search application built using vanilla JavaScript, HTML, and CSS. The application allows users to search for Wikipedia articles using the CCBP Wiki-search API and displays the results dynamically.
 
 ## Features
 - Search Wikipedia articles in real time
-- Fetch and display results using the Wikipedia API
+- Fetch and display results using the CCBP Wiki-search API
 - Clickable links to view full articles on Wikipedia
 - Responsive design for mobile and desktop
 
@@ -32,13 +32,13 @@ This is a simple Wikipedia search application built using vanilla JavaScript, HT
 3. View the search results with links to Wikipedia articles.
 
 ## API Integration
-This project uses the [Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page) to fetch search results. The API endpoint used is:
+This project uses the [CCBP Wiki-search API](https://apis.ccbp.in/wiki-search?search=) to fetch search results. The API endpoint used is:
 ```sh
-https://en.wikipedia.org/w/api.php?action=query&format=json&origin=*&list=search&srsearch=SEARCH_TERM
+https://apis.ccbp.in/wiki-search?search=SEARCH_TERM
 ```
 
 ## Demo
-You can check out a live demo of the project [here]([https://your-live-demo-url.com](https://dharshwikipedia.ccbp.tech/)).
+You can check out a live demo of the project [here](https://dharshwikipedia.ccbp.tech/).
 
 ## License
 This project is open-source and available under the MIT License.
@@ -50,6 +50,6 @@ Developed by [Your Name](https://github.com/SudarshanaRao).
 Contributions are welcome! Feel free to fork the repository and submit pull requests.
 
 ## Acknowledgments
-- [Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page)
+- [CCBP Wiki-search API](https://apis.ccbp.in/wiki-search?search=)
 - Inspired by Wikipedia search functionality
 
